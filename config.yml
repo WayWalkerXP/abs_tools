@@ -1,0 +1,7 @@
+# ~/.config/abs/config.yml
+templates:
+  with_series: "/media/audiobooks/Audiobooks/{author}/{series}/{series_part}_{album}_({year})/{album}_({year}).{ext}"
+  without_series: "/media/audiobooks/Audiobooks/{author}/{album}_({year})/{album}_({year}).{ext}"
+options:
+  recursive: true
+
